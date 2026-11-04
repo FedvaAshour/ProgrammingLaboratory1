@@ -1,0 +1,23 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package pkg7week;
+
+public class Address {
+
+    private String street;
+    private String district;
+    private String city;
+
+    public Address(String street, String district, String city) {
+        this.street = street;
+        this.district = district;
+        this.city = city;
+    }
+
+    @Override
+    public String toString() {
+        return street + ", " + district + ", " + city;
+    }
+}
